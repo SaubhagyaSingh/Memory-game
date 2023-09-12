@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;   
+
+
+#title{
+    padding-top: 4rem;
+    margin-left:40rem;
+}
+#mygrid
+{   padding-top: 2rem;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content:center;
+
+}
+.tiled{
+    align-items: center;
+    height:12rem;
+    max-width:auto;
+    border: 2px solid black;
+}
